@@ -1,6 +1,5 @@
 package main
 
-
 import (
 	"fmt"
 	"log"
@@ -10,7 +9,7 @@ import (
 
 func handler(w http.ResponseWriter, r *http.Request) {
 	time.Sleep(100 * time.Millisecond)
-	fmt.Fprintln(w, "Hi there, I am StrongMonkey:v19")
+	fmt.Fprintln(w, "Hi there, I am rio:v1")
 }
 
 func main() {
